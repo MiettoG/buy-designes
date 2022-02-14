@@ -1,0 +1,45 @@
+body{
+    min-height: 15vh;
+    background: linear-gradient(#2b1055,#7597de)
+    
+}
+
+#title{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    padding: 20% 0 20% 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: transparent;
+}
+    
+li {
+   float: left;
+   font-weight:bold;
+}
+li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 50px;
+     text-decoration: none;
+     width: 385px;
+}
+
+li a:hover {
+    font-size: 23px;
+    min-height: 2vh;
+    transition: 1s;
+    background: linear-gradient(#2b1055,#7597de)
+}

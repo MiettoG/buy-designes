@@ -1,0 +1,40 @@
+body{
+    min-height: 15vh;
+    background: linear-gradient(#0e8814,#03ff89)
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 50px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+li {
+    float: left;
+    font-weight:bold;
+ }
+ li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 50px;
+      text-decoration: none;
+      width: 1350px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ 
+ li a:hover {
+     font-size: 30px;
+     min-height: 2vh;
+     transition: 1s;
+     background: linear-gradient(#005f00,#44e08a)
+ }
+
+ #p{
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
